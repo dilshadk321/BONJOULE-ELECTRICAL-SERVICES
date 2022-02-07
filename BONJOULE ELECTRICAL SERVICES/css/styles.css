@@ -1,0 +1,528 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+*::selection{
+color: aqua;
+}
+
+
+/* Header Start */
+#company{ 
+  background-color: black;
+  color: white;
+}
+#brandName p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  display: inline-block;
+  padding-left:10px ;
+  padding-top:50px ;
+}
+#brandName {
+  display: flex;
+  align-items: center;
+}
+#contactus a{
+  color: aqua!important;
+}
+/* Header END */
+
+
+
+
+
+
+
+/* Nevbar start */
+#collapsibleNavbar ul{
+ /* border: 1px solid red;   border_dene hai but apply nhi hua  */
+  color: blue!important;
+  text-transform: uppercase;
+}
+
+#collapsibleNavbar ul li a{
+  padding: 10px 25px;
+  font-weight: 600;
+    transition:all 0.3s linear 0s,transform 0.3s ;
+}
+#collapsibleNavbar ul li a:hover{
+    color:aqua;
+    font-weight: bolder;
+  border-bottom:2px solid black ;
+    transform: scale(1.1);
+}
+#navbar {
+  background-color: black!important;
+  position:sticky;
+  top: 0px;
+  z-index:1; 
+  opacity: 1;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#dropdown{
+  background-color: black!important;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+#dropdown a{
+  box-sizing: border-box;
+}
+#dropdown a:hover{
+  background-color: aqua;
+  color: black!important;
+  font-weight: bold;
+}
+
+#navbar ul li a:is(:link,:active,:visited).active{
+   color: red;
+}
+
+
+/* Nevbar End */
+
+
+
+
+
+/* fixed btn Start */
+#send_enquiry{  
+  background-color: rgb(255, 4, 4);
+  position: fixed;
+  bottom: 5%;
+  right:1%;
+  font-size: 16px;
+  z-index: 10;
+  font-weight: 700;
+  box-shadow:1px 1px 1px aqua ;
+  }
+#send_enquiry a{
+   text-decoration: none;
+   color:white; 
+}
+#send_enquiry:hover{
+    background-color:black;
+}
+
+/* time */
+#time{
+    padding-top: 56px;
+    box-sizing: border-box;
+}
+#time p{
+    color: aqua;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    /* font-style: italic; */
+}
+/* fixed btn Start */
+
+
+
+
+
+
+/* Home Start */
+#card1{
+  margin-bottom: 10px;
+ }
+#card1 .card-body,#card2 .card-body{
+    color:aqua;
+    background-color: black;
+    border-bottom-left-radius: 5px!important;
+    border-bottom-right-radius: 5px!important;
+}
+#card1 .card,#card2 .card{
+    border: 1px solid white;
+    transition:all 0.3s linear 0s,transform 0.3s ;
+}
+#card1 .card:hover,#card2 .card:hover{
+    transform: scale(1.1);
+}
+#card1 .card a,#card2 .card a{
+    width: 100px;
+    background-color: black;
+    border-radius: 10px;
+    padding:5px 10px;
+    border: 1px solid black;
+    color: white ;
+    font-weight: bold;
+    text-decoration: none; 
+    transition: all 0.3s linear 0s;
+}
+#card1 .card a:hover,#card2 .card a:hover{
+      background-image: linear-gradient(to right, black,aqua);
+}
+/* Home Start */
+
+
+
+
+
+
+/* About Start */
+
+#about_us1 p,#about_us2 p,#about_us3 p{
+  padding-top:10px ;
+}
+
+#horizontalline_about_us hr{
+  display: block;
+  border: 1px solid gray ;
+}
+#horizontalline_about_us hr:hover{
+  display: block;
+  border: 2px solid aqua ;
+}
+#about_us2,#about_us3{
+  margin-top: -20px!important;
+}
+
+/* About End */
+
+
+
+
+
+/* Service Start */
+#electrical_service .ES_span1,
+#interior_Projects .IP_span1,
+#maintenance_and_repair .MR_span1,
+#energy_audit_and_pms .EAP_span1,
+#eletrical_service_and_audit_training .EAPT_span1,
+#bes_freelance .BF_span1{
+  font-weight: 750;
+  margin: 0px;
+  font-size: 30px;
+  color: rgb(71, 69, 69);
+} 
+#electrical_service .ES_span1:hover,
+#interior_Projects .IP_span1:hover,
+#maintenance_and_repair .MR_span1:hover,
+#energy_audit_and_pms .EAP_span1:hover,
+#eletrical_service_and_audit_training .EAPT_span1:hover,
+#bes_freelance .BF_span1:hover{
+  color: aqua;
+  text-shadow: 2px 2px 4px aqua;
+}
+#electrical_service img,
+#interior_Projects img,
+#maintenance_and_repair img,
+#energy_audit_and_pms img,
+#eletrical_service_and_audit_training img:not(#service_PMS_training_4){
+  box-shadow: 2px 2px 12px aqua;
+  border-radius: 6px;
+}
+#eletrical_service_and_audit_training .EAPT_span2 a{
+  color: aqua;
+  font-weight: 700;
+} 
+
+#eletrical_service_and_audit_training h4{
+  display: inline-block;
+  transition: color 1s;
+}
+
+#eletrical_service_and_audit_training h4:hover{
+  color: aqua;
+}
+
+/* Service END */
+
+
+
+
+
+
+
+
+/* gellery */
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+#contact1 p{
+  color: red;
+  font-size: 40px;
+}
+#gallery1{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: black;
+}
+#gallery1 span{
+   font-weight: 750;
+    margin: 0px;
+    font-size: 30px;
+    padding: 0px;
+    text-align: center;
+    padding-left: 15px;
+    color: rgb(71, 69, 69);
+}
+#gallery1 span:hover
+{ color: aqua;
+  text-shadow: 2px 2px 4px aqua;
+}
+marquee #marquee{
+ width: 700%;
+ display: flex;
+ flex-direction: row;
+ flex-wrap:nowrap;
+}
+marquee #marquee .card{
+  margin: 10px;
+  border: 2px solid aqua;
+ }
+ .photo_card_bg{
+   background-color: black;
+ }
+ marquee #marquee .card p{
+   color: aqua;
+   font-weight: 700;
+ }
+ marquee #marquee1 img{
+   margin: 8.7px;
+   border-radius:15px ;
+   border: 2px solid aqua;
+   display: inline-block;
+ }
+#gallery_video div,#gallery_video
+{
+  background-color: black;
+}
+#gallery_video div p
+{
+ color: rgb(71, 69, 69);
+ text-align: center;
+ text-transform: capitalize;
+}
+/* gallery end */
+
+
+
+
+
+
+
+
+/* Contact Start */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;  
+}
+#contact_us_col1 p,#contact_us_col1 p a{
+ color:white;
+ text-decoration: none;
+
+}
+#contact_us_col1{
+  margin-top: 30px;
+}
+#contact_us_col2 h2{
+  color: black;
+  font-weight: bold;
+  padding-bottom:10px;   
+}
+#contact_us_col2 input[type=text],#contact_us_col2 input[type=email],#contact_us_col2 textarea{
+  opacity: 0.7;
+  background-color: black;
+  color:white;
+}
+#contact_us_col2 input[type=submit]{
+     width: 200px;
+     font-weight: bold;
+     padding: 5px;
+     text-transform: uppercase;
+     border: 1px solid white;
+     border-radius:10px ;
+     background-color: black;
+     color: white;
+     cursor: pointer;
+     opacity: 0.6;
+     display: block;
+     transition: all 0.3s linear 0s;
+}
+#contact_us_col2 input[type=submit]:hover,
+#BES_form input[type=submit]:hover{ 
+     background-image: linear-gradient(to right, black,aqua);
+     opacity: 1;
+}
+
+
+#confirmation,
+#confirmation_BES{
+  color:rgb(49, 241, 49);
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.3s linear 0s;
+}
+
+#confirmationnot,
+#confirmationnot_BES{
+  color:red;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.3s linear 0s;
+}
+/* Contact END */
+
+
+
+/* BES_Freelance */
+#BES_form input[type=text],
+#BES_form input[type=tel],
+#BES_form input[type=email]{
+  background: black;
+  border:1px solid aqua ;
+  border-radius: 15px;
+  color: white;
+}
+#BES_form input[type=submit]{
+width: 200px;
+font-weight: bold;
+padding: 5px;
+text-transform: uppercase;
+border: 1px solid white;
+border-radius:10px ;
+background-image: linear-gradient(to right, black,red);
+color: white;
+cursor: pointer;
+opacity: 0.6;
+display: block;
+transition: all 0.3s linear 0s;
+}
+#BES_nameErr,#BES_phoneErr,
+#BES_emailErr/* ,#fnameErr,#lnameErr,
+#phoneErr,#emailErr*/{ 
+   font-size: 16px;
+   color:grey;
+}
+/* BES_Freelance */
+
+
+
+
+
+
+
+
+
+
+
+/* footer start */
+#footerrow{
+  justify-content: space-around;
+}
+#footer{
+  background-color:black;
+}
+#footerBrand,#footerQuick li a,
+#footerContact li a,#footerContact li{
+  color: aqua;
+}
+#about_us1 span,#about_us2 span,
+#about_us3 span,#home span,
+#home1 span{
+  font-weight: 750;
+  font-size: 30px;
+  color: rgb(71, 69, 69);
+}
+#about_us1 span:hover,
+#about_us2 span:hover,
+#about_us3 span:hover,
+#home span:hover,
+#home1 span:hover{
+  color: aqua;
+  text-shadow: 2px 2px 4px aqua;
+}
+
+#footerQuick .dropdown-menu{
+  background-color: black;
+  text-align: center;
+}
+#footerQuick .dropdown-menu .dropdown-item:hover{
+ background-color: aqua;
+ color: black;
+ font-weight: bolder;
+ transform: scale(1.1);
+}
+/* Footer End */
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 580.7px) {
+    #contactus{
+     display: none;
+    }
+    
+    #brandName p{
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 25px;
+    }
+
+
+    #card1 .card,#card2 .card{
+        width: 70%;
+        margin: auto!important;
+    
+    }
+    #card1 .card img,#card2 .card img{
+        height: 200px;
+    }
+
+
+    #time{
+        padding-top: 0px;
+    }
+
+    #time p{
+       float: right;
+       font-size: 20px;
+    }
+    
+    /* about_us */
+    #about_us3{
+      margin-top:30px!important;
+    }
+
+
+
+  /* contat_us */
+    #contact_us_col1{
+        margin-top: -30px;
+    }
+}
